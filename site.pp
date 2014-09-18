@@ -18,4 +18,16 @@ mysql::db { 'test_mdb':
 
 }
 
+node vm11 {
 
+include nginx
+include mysql::server
+
+mysql::db { 'prod_mdb':
+  user => 'prod_user',
+  password => 'prod_user',
+  grant => ['ALL'],
+  host => 'vm11'
+}
+
+}
