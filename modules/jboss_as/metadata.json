@@ -1,0 +1,40 @@
+{
+  "name": "rji-jboss_as",
+  "version": "1.1.0",
+  "source": "UNKNOWN",
+  "author": "rji",
+  "license": "Apache License, Version 2.0",
+  "summary": "Install, configure, and deploy applications on JBoss AS 7.",
+  "description": "A Puppet module to manage the installation, configuration, and application deployments for JBoss Application Server 7. It is compatible with Enterprise Linux and Ubuntu.",
+  "project_page": "https://github.com/rji/puppet-jboss_as",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Gemfile": "7d0175691983693106c5894947d09650",
+    "Gemfile.lock": "82a62d6846ef39226d2e6d8c76c958f5",
+    "LICENSE": "e27c33f035c23b81d6f4aa9c289505e1",
+    "Modulefile": "dcbf97c1b19234c40f2b6cf47554cf58",
+    "README.md": "a614571d3b6d3cc49b59c2d132cc13c9",
+    "Rakefile": "293eea3a4f687f76e586d989f138e8cc",
+    "files/README.txt": "08baf48c660a26a992b499b2ed3da538",
+    "manifests/config.pp": "bfff38c1ae90f1253d51a7136e1553c1",
+    "manifests/deploy.pp": "5998875ea2aab4173da1034fc10201aa",
+    "manifests/init.pp": "e38f40e818b6466804e1fd299a2de4f0",
+    "manifests/install.pp": "fd11f1e8e4b723941f6ba9d4fb633d91",
+    "manifests/params.pp": "ecc0650193a9d3f9e16f05d161f8ad5d",
+    "manifests/service.pp": "29b65c401fe591d85f493828411fd83f",
+    "spec/classes/jboss_as_spec.rb": "0b8fa808147b18a610cf66ec596344b1",
+    "spec/defines/deploy_spec.rb": "5fb29bff503fe554baad25593427405e",
+    "spec/fixtures/manifests/site.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "spec/spec_helper.rb": "792eeb7aa7edafb93e2bc1d27c5e75c5",
+    "templates/jboss-as-initscript-el.sh.erb": "ade3b203642933c8ea9a6f411d4b1c4c",
+    "templates/jboss-as-initscript-ubuntu.sh.erb": "2ba9595e5f3a3a9348b5175ef1f0c969",
+    "templates/jboss-as-service.conf.erb": "aa2ff0c1110d94809a502b9fed7c64cf",
+    "templates/standalone.conf.erb": "6f16b805ec86ad527ecea95624e5c235",
+    "templates/standalone.xml.erb": "ce0734c0d46a72156fff48df8c247e5b"
+  }
+}
